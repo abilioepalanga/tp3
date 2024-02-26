@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background-image: url("images/fundo-jogo.jpeg");
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
+}
+
+#mainRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#camera {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+    color: F850E6;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    z-index: 1000;
+}
+
+.input {
+    width: 100%;
+    height: 53px;
+    max-width: 320px;
+    color: black;
+    font-family: "Arial", Courier, monospace;
+    font-size: 20px;
+    z-index: 1000;
+    border-radius: 12px;
+    outline: none;
+    border: 2px solid #f850e6;
+    padding: 8px;
+}
+
+.dificulty-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+button {
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #3f94c3;
+    background-color: #3f94c3;
+    color: white;
+    font-family: "Arial", Courier, monospace;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    transform: 0.4s opacity;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#gameName {
+    margin-top: 120px;
+    margin-bottom: 12px;
+}
+
+#selectedDifficulty {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f850e6;
+    padding: 8px;
+    border-radius: 8px;
+}
